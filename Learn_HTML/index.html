@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Raghul">
+    <meta name="description" content="Subscribe to my channel">
+    <title>My first page</title>
+    <link rel = "icon" href="saheshana      sri.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+
+
+</head>
+<body>
+    <header>
+        <i><a href="aboutme.html">Bring me to Second page</a></i>
+        <h1>Hello world!</h1>
+        <nav>
+            <ul>
+                <li><a href="#c1">head 2</li></a>
+                <li><a href="#c2">head 3</li></a>
+                <li>
+                    <a href="#contact">Contact me</a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    
+    <!--Helloooo how are you-->
+    <main>
+        <p><em>Hey <strong>everybody</strong></em>, I will finish this work.</p>
+        <section id="c1">
+        <h2>Courses ongoing</h2>
+        <p>dont worry ill finish it with in duration</p>
+        <ul>
+            <li>learn HTML</li>
+            <li>Learn AI</li>
+            <li>Block chain</li>
+        </ul>
+        <ol>
+            <li>learn HTML</li>
+            <li>Learn AI</li>
+            <li>Block chain</li>
+        </ol></section>
+        <h3>Almost done....</h3>
+        <p>Maybe ill finish this <br>&nbsp;&nbsp;&nbsp;course....</p>
+        <dl>
+            <dt>Duddu...</dt>
+            <dd><a href="www.youtube.com">Youtube channel</a></dd>
+            <dt>Share Market</dt>
+            <dd>We will learn how to grow monwy</dd>
+            <dt>Front end developemnt</dt>
+            <dd>We will learn HTML,CSS,JS,React js</dd>
+        </dl>
+
+        <img src="saheshana sri.png" alt="picture....."  title="sample" width="600" height="500" >
+        <br><br>
+        <figure>
+        <img src="saheshana      sri.png" alt="picture....." title="sample" width="600" height="500" loading="lazy" >
+        <figcaption>Painting</figcaption>
+
+        </figure>
+        <br><br>
+        <i><a href="aboutme.html">Bring me to Second page</a></i>
+        <h1>Hello world!</h1>
+        <hr>
+        <!--Helloooo how are you-->
+        <p><em>Hey <strong>everybody</strong></em>, I will finish this work.</p>
+        <h2>Courses ongoing</h2>
+        <p>dont worry ill finish it with in duration</p>
+        <ul>
+            <li>learn HTML</li>
+            <li>Learn AI</li>
+            <li>Block chain</li>
+        </ul>
+        <ol>
+            <li>learn HTML</li>
+            <li>Learn AI</li>
+            <li>Block chain</li>
+        </ol>
+        <section id="c2"></section><h3>Almost done....</h3>
+        <p><mark>Maybe ill finish this <br>&nbsp;&nbsp;&nbsp;course....</p></mark>
+        <dl>
+            <dt>Duddu...</dt>
+            <dd><a href="www.youtube.com">Youtube channel</a></dd>
+            <dt>Share Market</dt>
+            <dd>We will learn how to grow monwy</dd>
+            <dt>Front end developemnt</dt>
+            <dd>We will learn HTML,CSS,JS,React js</dd>
+        </dl></section>
+        <figure>
+            <figcaption>HTML code sample:- </figcaption>
+            <code>&lt;h1&gt;hello world&lt;/h1&gt;</code>
+        </figure>
+        <hr>
+    </main>
+
+    <article id="contact">
+        <h2>Contact me:</h2>
+        <p>
+            I would like to hear from you.
+        </p>
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend> Personal Info</legend>
+            
+            <label for="firstName"> FirstName: </label>
+            <input type="text" name="firstName" id="firstName" placeholder="Type here" autocomplete="on" autofocus required><br><br>
+
+            <label for="lastName"> LastName: </label>
+            <input type="text" name="lastName" id="lastName" placeholder="Type here" autocomplete="on" autofocus required><br><br>
+
+            <label for="password"> Password: </label>
+            <input type="password" name="password" id="password" required><br><br>
+
+            <label for="phone"> Phone No: </label>
+            <input type="tel" name="phone" id="phone" placeholder="+91" required pattern="[0-9]{3} [0-9]{3} [0-9]{4}"><br><br>
+
+            <label for="decade"> Decade No: </label>
+            <input type="number" name="decade" id="decade" min="1980" max="2050" value="1980" ><br><br>
+
+            <label for="content">Whats ur fav content from this website:</label>
+            <select name="content" id="content" multiple size="5">
+                <optgroup label="Sample Content">
+                    <option value="section1">Section 1</option>
+                    <option value="section2">Section 2</option>
+                    <option value="section3">Section 3</option>
+                    <option value="section4">Section 4</option>
+                </optgroup>
+                <optgroup label="Education">
+                    <option value="AI">AI</option>
+                    <option value="Blockchain">Blockchain</option>
+                    <option value="Fullstack developemnt">Fullstack developemnt</option>
+                    <option value="Frontend developemnt">Frontend developemnt</option>
+                </optgroup>
+                <optgroup label="How to earn money">
+                    <option value="Share Market">Share Market</option>
+                    <option value="Trading">Trading</option>
+                </optgroup>
+            </select>
+            <p>
+                <label for="content">Fav content from this website:</label>
+                <input type="text" name="content" id="content" list="content-list">
+                <datalist id="content-list">
+                    <option value="AI">
+                    <option value="Blockchain">
+                    <option value="Fullstack developemnt">
+                    <option value="Frontend developemnt">
+
+                </datalist>
+            </p>
+        </fieldset><br><br>
+
+        <fieldset>
+            <legend>Whats ur fav food</legend>
+            <input type="radio" name="food" id="chicken" value="chicken">
+            <label for="chicken">Chicken</label><br><br>
+            <input type="radio" name="food" id="mutton" value="mutton">
+            <label for="mutton">Mutton</label><br><br>
+            <input type="radio" name="food" id="pizza" value="pizza">
+            <label for="pizza">Pizza</label><br><br>
+            <input type="radio" name="food" id="burger" value="burger">
+            <label for="burger">Burger</label><br>
+        </fieldset><br><br>
+
+        <fieldset>
+            <legend>Whats ur fav food</legend>
+            <input type="checkbox" name="food" id="chicken" value="chicken">
+            <label for="chicken">Chicken</label><br><br>
+            <input type="checkbox" name="food" id="mutton" value="mutton">
+            <label for="mutton">Mutton</label><br><br>
+            <input type="checkbox" name="food" id="pizza" value="pizza">
+            <label for="pizza">Pizza</label><br><br>
+            <input type="checkbox" name="food" id="burger" value="burger">
+            <label for="burger">Burger</label><br>
+        </fieldset>
+        <br><br>
+
+        <fieldset>
+            <legend>Send me a note:-</legend>
+            <label for="message">Your Message</label>
+            <p>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+            </p>
+        </fieldset><br><br>
+        <button type="submit">Submit</button>
+        <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+        <button type="reset">Reset</button>
+
+        </form>
+
+    </article>
+    <br>
+    <hr>
+
+<footer>
+    <p><i> learn from <abbr title="Mozilla Developer Network"><a href="www.mdn.com">MDN</a></abbr> resources.</i></p>
+    <address>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chinnamanur,Theni-625515</address>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt; &copy; copyright issued by Raghul &gt;
+    <p><a href="#">back to top</a></p>
+</footer>
+</body>
+</html>

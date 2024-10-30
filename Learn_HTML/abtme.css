@@ -1,0 +1,15 @@
+html {
+    font-size: 22px;
+}
+
+body{
+    background-color: rgb(11, 11, 19);
+    color: rgb(231, 214, 214);
+}
+table, tr, th, td, caption{
+    border: 1px solid #eee;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+
+}
